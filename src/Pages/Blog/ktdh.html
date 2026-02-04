@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+  <!--Header-->
+  <header class="sticky top-0 z-50 bg-white w-full border-0 shadow">
+    <div class="max-w-7xl mx-auto flex items-center justify-between px-6 h-[90px]">
+
+      <a href="/" class="relative translate-y-3">
+        <img src="/src/assets/images/logo.png" class="h-32 w-30 block" />
+      </a>
+
+      <nav class="hidden lg:block">
+        <ul class="flex gap-6 text-sm font-normal text-gray-700">
+          <li><a href="/demo-tailwind4/index.html" class="hover:text-[#0180C1]">TRANG CHỦ</a></li>
+          <li><a href="/src/Pages/AboutUs/index.html" class="hover:text-[#0180C1]">GIỚI THIỆU</a></li>
+          <li><a href="/src/Pages/Pricing/index.html" class="hover:text-[#0180C1] flex items-center">
+              BÁO GIÁ <i class="fa-solid fa-chevron-right text-xs ml-2"></i></a></li>
+          <li><a href="/src/Pages/Products/index.html" class="px-4 py-2 rounded-full bg-[#0180C1] text-white 
+                            outline outline-0.5 outline-white outline-offset-[-4px]">SẢN PHẨM</a></li>
+          <li><a href="/src/Pages/Services/index.html" class="hover:text-[#0180C1]">DỊCH VỤ</a></li>
+          <li><a href="/src/Pages/Blog/index.html" class="hover:text-[#0180C1]">TIN TỨC</a></li>
+          <li><a href="/src/Pages/Contact/index.html" class="hover:text-[#0180C1]">LIÊN HỆ</a></li>
+        </ul>
+      </nav>
+
+      <div class="flex gap-3 ">
+        <button class="flex px-4 py-2 border rounded-full text-sm hover:text-[#0180C1]">
+          <a href="#" class="mr-2"><i class="fa-solid fa-phone-volume"></i></a>
+          <span class="mr-1">Hotline:</span>
+          <span class="font-medium">0909 944 195</span>
+        </button>
+        <button class="px-5 py-2 bg-red-500 text-white rounded-full hover:text-[#0180C1]">
+          ĐẶT HÀNG
+        </button>
+      </div>
+
+    </div>
+  </header>
+  <!--end Header-->
+
+  <!--Section-1-->
+  <section class="py-10">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="bg-white border border-gray-200 rounded-lg px-4 py-4 text-sm text-gray-600">
+        <span>Trang chủ</span>
+        <i class="fa-solid fa-arrow-right-long text-gray-400 mr-4 ml-4"></i>
+        <span class="font-medium text-gray-800">Kiến thức đồ họa</span>
+      </div>
+    </div>
+  </section>
+  <!--end Section-1-->
+
+
+
+  <script type="module" src="/src/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+    integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="/js/wow.min.js"></script>
+  <script>
+    if (typeof WOW !== 'undefined') {
+      new WOW({
+        boxClass: 'wow',
+        animateClass: 'animate__animated',
+        offset: 100
+      }).init();
+      console.log("WOW.js đã sẵn sàng!");
+    } else {
+      console.error("Vẫn chưa load được file wow.min.js");
+    }
+  </script>
+</body>
+
+</html>

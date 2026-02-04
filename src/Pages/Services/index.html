@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/demo-tailwind4/src/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <title>Services</title>
+</head>
+
+<body>
+  <!--Header-->
+  <header class="sticky top-0 z-50 bg-white w-full border-0 shadow animate__animated animate__bounceInDown">
+    <div class="max-w-7xl mx-auto flex items-center justify-between px-6 h-[90px]">
+
+      <a href="/" class="relative translate-y-3">
+        <img src="/src/assets/images/logo.png" class="h-32 w-30 block" />
+      </a>
+
+      <nav class="hidden lg:block">
+        <ul class="flex gap-6 text-sm font-normal text-gray-700">
+          <li><a href="/demo-tailwind4/index.html" class="hover:text-[#0180C1]">TRANG CHỦ</a></li>
+          <li><a href="/src/Pages/AboutUs/index.html" class="hover:text-[#0180C1]">GIỚI THIỆU</a></li>
+          <li><a href="/src/Pages/Pricing/index.html" class="hover:text-[#0180C1] flex items-center">
+              BÁO GIÁ <i class="fa-solid fa-chevron-right text-xs ml-2"></i></a></li>
+          <li><a href="/src/Pages/Products/index.html" class="hover:text-[#0180C1]">SẢN PHẨM</a></li>
+          <li><a href="/src/Pages/Services/index.html" class="px-4 py-2 rounded-full bg-[#0180C1]
+                     text-white outline outline-0.5 outline-white outline-offset-[-4px]">DỊCH VỤ</a></li>
+          <li><a href="/src/Pages/Blog/index.html" class="hover:text-[#0180C1]">TIN TỨC</a></li>
+          <li><a href="/src/Pages/Contact/index.html" class="hover:text-[#0180C1]">LIÊN HỆ</a></li>
+        </ul>
+      </nav>
+
+      <div class="flex gap-3 ">
+        <button class="flex px-4 py-2 border rounded-full text-sm hover:text-[#0180C1]">
+          <a href="#" class="mr-2"><i class="fa-solid fa-phone-volume"></i></a>
+          <span class="mr-1">Hotline:</span>
+          <span class="font-medium">0909 944 195</span>
+        </button>
+        <button class="px-5 py-2 bg-red-500 text-white rounded-full hover:text-[#0180C1]">
+          ĐẶT HÀNG
+        </button>
+      </div>
+
+    </div>
+  </header>
+  <!--end Header-->
+
+  <!--Section-1-->
+  <section class="py-10 animate__animated animate__flipInX">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="bg-white border border-gray-200 rounded-lg px-4 py-4 text-sm text-gray-600">
+        <span>Trang chủ</span>
+        <i class="fa-solid fa-arrow-right-long text-gray-400 mr-4 ml-4"></i>
+        <span class="font-medium text-gray-800">Dịch vụ</span>
+      </div>
+    </div>
+  </section>
+  <!--end Section-1-->
+
+  <!--Section-2-->
+  <section class="relative py-5 bg-cover bg-center bg-no-repeat">
+    <div class="max-w-7xl mx-auto px-6 mb-20">
+
+      <div class="text-center mb-14 wow animate__animated animate__rollIn ">
+        <h2 class="inline-block text-3xl font-semibold text-[#0180C1] relative">
+          DỊCH VỤ
+          <span class="absolute left-0 -bottom-2 w-full h-[0.5px] bg-[#0180C1]"></span>
+        </h2>
+      </div>
+
+      <!-- GRID -->
+      <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-8">
+
+        <div class="relative bg-white rounded-2xl border shadow-sm overflow-hidden wow animate__animated animate__bounceInLeft">
+
+          <img src="/src/assets/images/img39.jpg"
+            class="absolute inset-0 w-full h-full object-center pointer-events-none" alt="">
+
+          <div class="absolute top-2 left-4 right-4 flex items-center justify-between z-10">
+
+            <div class="w-18 h-18 rounded-full bg-[#0180C1] border-2 border-white
+                         flex items-center justify-center">
+              <img src="/src/assets/images/logo2.png" class="w-12 h-12 object-contain">
+            </div>
+
+            <div class="absolute top-4 -right-6 flex items-center gap-2 bg-[#0180C1] text-white text-sm
+                            px-6 py-1.5 rounded-full shadow-lg whitespace-nowrap z-20">
+              <i class="fa-solid fa-phone-volume"></i>
+              Hotline: 0909 844 155
+            </div>
+          </div>
+          <img src="/src/assets/images/img39.1.png" class="absolute top-32 left-1/2 -translate-x-1/2 -translate-y-1/2
+                     w-44 h-auto z-20 object-contain pointer-events-none" alt="">
+
+          <div class="relative h-56 z-10"></div>
+
+          <div class="relative z-10 flex items-center justify-between px-5 py-4">
+            <h3 class="text-white font-normal text-md uppercase">
+              CATALOGUE
+            </h3>
+
+            <button class="bg-red-500 hover:bg-red-600 transition
+                    text-white text-sm px-6 py-1 rounded-full">
+              XEM BÁO GIÁ
+            </button>
+          </div>
+        </div>
+
+        <div class="relative bg-white rounded-2xl border shadow-sm overflow-hidden wow animate__animated animate__bounceInUp">
+
+          <img src="/src/assets/images/img39.jpg"
+            class="absolute inset-0 w-full h-full object-center pointer-events-none" alt="">
+
+          <div class="absolute top-2 left-4 right-4 flex items-center justify-between z-10">
+
+            <div class="w-18 h-18 rounded-full bg-[#0180C1] border-2 border-white
+                         flex items-center justify-center">
+              <img src="/src/assets/images/logo2.png" class="w-12 h-12 object-contain">
+            </div>
+
+            <div class="absolute top-4 -right-6 flex items-center gap-2 bg-[#0180C1] text-white text-sm
+                            px-6 py-1.5 rounded-full shadow-lg whitespace-nowrap z-20">
+              <i class="fa-solid fa-phone-volume"></i>
+              Hotline: 0909 844 155
+            </div>
+
+          </div>
+
+          <img src="/src/assets/images/img39.2.png" class="absolute top-32 left-1/2 -translate-x-1/2 -translate-y-1/2
+                     w-44 h-auto z-20 object-contain pointer-events-none" alt="">
+
+          <div class="relative h-56 z-10"></div>
+
+          <div class="relative z-10 flex items-center justify-between px-5 py-4">
+            <h3 class="text-white font-normal text-md uppercase">
+              TỜ RƠI
+            </h3>
+
+            <button class="bg-red-500 hover:bg-red-600 transition
+                    text-white text-sm px-6 py-1 rounded-full">
+              XEM BÁO GIÁ
+            </button>
+          </div>
+
+        </div>
+
+        <div class="relative bg-white rounded-2xl border shadow-sm overflow-hidden wow animate__animated animate__bounceInRight">
+
+          <img src="/src/assets/images/img39.jpg"
+            class="absolute inset-0 w-full h-full object-center pointer-events-none" alt="">
+
+          <div class="absolute top-2 left-4 right-4 flex items-center justify-between z-10">
+
+            <div class="w-18 h-18 rounded-full bg-[#0180C1] border-2 border-white
+                         flex items-center justify-center">
+              <img src="/src/assets/images/logo2.png" class="w-12 h-12 object-contain">
+            </div>
+
+            <div class="absolute top-4 -right-6 flex items-center gap-2 bg-[#0180C1] text-white text-sm
+                            px-6 py-1.5 rounded-full shadow-lg whitespace-nowrap z-20">
+              <i class="fa-solid fa-phone-volume"></i>
+              Hotline: 0909 844 155
+            </div>
+          </div>
+
+          <img src="/src/assets/images/img39.3.png" class="absolute top-32 left-1/2 -translate-x-1/2 -translate-y-1/2
+                     w-44 h-auto z-20 object-contain pointer-events-none" alt="">
+
+          <div class="relative h-56 z-10"></div>
+
+          <div class="relative z-10 flex items-center justify-between px-5 py-4">
+            <h3 class="text-white font-normal text-md uppercase">
+              BAO THƯ
+            </h3>
+
+            <button class="bg-red-500 hover:bg-red-600 transition
+                    text-white text-sm px-6 py-1 rounded-full">
+              XEM BÁO GIÁ
+            </button>
+          </div>
+
+        </div>
+
+        <div class="relative bg-white rounded-2xl border shadow-sm overflow-hidden wow animate__animated animate__bounceInLeft">
+
+          <img src="/src/assets/images/img39.jpg"
+            class="absolute inset-0 w-full h-full object-center pointer-events-none" alt="">
+
+          <div class="absolute top-2 left-4 right-4 flex items-center justify-between z-10">
+
+            <div class="w-18 h-18 rounded-full bg-[#0180C1] border-2 border-white
+                         flex items-center justify-center">
+              <img src="/src/assets/images/logo2.png" class="w-12 h-12 object-contain">
+            </div>
+
+            <div class="absolute top-4 -right-6 flex items-center gap-2 bg-[#0180C1] text-white text-sm
+                            px-6 py-1.5 rounded-full shadow-lg whitespace-nowrap z-20">
+              <i class="fa-solid fa-phone-volume"></i>
+              Hotline: 0909 844 155
+            </div>
+          </div>
+
+          <img src="/src/assets/images/img39.4.png" class="absolute top-32 left-1/2 -translate-x-1/2 -translate-y-1/2
+                     w-44 h-auto z-20 object-contain pointer-events-none" alt="">
+
+          <div class="relative h-56 z-10"></div>
+
+          <div class="relative z-10 flex items-center justify-between px-5 py-4">
+            <h3 class="text-white font-normal text-md uppercase">
+              GIẤY TIÊU ĐỀ
+            </h3>
+
+            <button class="bg-red-500 hover:bg-red-600 transition
+                    text-white text-sm px-6 py-1 rounded-full">
+              XEM BÁO GIÁ
+            </button>
+          </div>
+        </div>
+
+        <div class="relative bg-white rounded-2xl border shadow-sm overflow-hidden wow animate__animated animate__bounceInDown">
+
+          <img src="/src/assets/images/img39.jpg"
+            class="absolute inset-0 w-full h-full object-center pointer-events-none" alt="">
+
+          <div class="absolute top-2 left-4 right-4 flex items-center justify-between z-10">
+
+            <div class="w-18 h-18 rounded-full bg-[#0180C1] border-2 border-white
+                         flex items-center justify-center">
+              <img src="/src/assets/images/logo2.png" class="w-12 h-12 object-contain">
+            </div>
+
+            <div class="absolute top-4 -right-6 flex items-center gap-2 bg-[#0180C1] text-white text-sm
+                            px-6 py-1.5 rounded-full shadow-lg whitespace-nowrap z-20">
+              <i class="fa-solid fa-phone-volume"></i>
+              Hotline: 0909 844 155
+            </div>
+          </div>
+
+          <img src="/src/assets/images/img39.5.png" class="absolute top-32 left-1/2 -translate-x-1/2 -translate-y-1/2
+                     w-44 h-auto z-20 object-contain pointer-events-none" alt="">
+
+          <div class="relative h-56 z-10"></div>
+
+          <div class="relative z-10 flex items-center justify-between px-5 py-4">
+            <h3 class="text-white font-normal text-md uppercase">
+              TÚI GIẤY
+            </h3>
+
+            <button class="bg-red-500 hover:bg-red-600 transition
+                    text-white text-sm px-6 py-1 rounded-full">
+              XEM BÁO GIÁ
+            </button>
+          </div>
+
+        </div>
+
+        <div class="relative bg-white rounded-2xl border shadow-sm overflow-hidden wow animate__animated animate__bounceInRight">
+
+          <img src="/src/assets/images/img39.jpg"
+            class="absolute inset-0 w-full h-full object-center pointer-events-none" alt="">
+
+          <div class="absolute top-2 left-4 right-4 flex items-center justify-between z-10">
+
+            <div class="w-18 h-18 rounded-full bg-[#0180C1] border-2 border-white
+                         flex items-center justify-center">
+              <img src="/src/assets/images/logo2.png" class="w-12 h-12 object-contain">
+            </div>
+
+            <div class="absolute top-4 -right-6 flex items-center gap-2 bg-[#0180C1] text-white text-sm
+                            px-6 py-1.5 rounded-full shadow-lg whitespace-nowrap z-20">
+              <i class="fa-solid fa-phone-volume"></i>
+              Hotline: 0909 844 155
+            </div>
+          </div>
+
+          <img src="/src/assets/images/img39.6.png" class="absolute top-32 left-1/2 -translate-x-1/2 -translate-y-1/2
+                     w-44 h-auto z-20 object-contain pointer-events-none" alt="">
+
+          <div class="relative h-56 z-10"></div>
+
+          <div class="relative z-10 flex items-center justify-between px-5 py-4">
+            <h3 class="text-white font-normal text-md uppercase">
+              FOLDER
+            </h3>
+
+            <button class="bg-red-500 hover:bg-red-600 transition
+                    text-white text-sm px-6 py-1 rounded-full">
+              XEM BÁO GIÁ
+            </button>
+          </div>
+        </div>
+
+        <div class="relative bg-white rounded-2xl border shadow-sm overflow-hidden wow animate__animated animate__bounceInLeft">
+
+          <img src="/src/assets/images/img39.jpg"
+            class="absolute inset-0 w-full h-full object-center pointer-events-none" alt="">
+
+          <div class="absolute top-2 left-4 right-4 flex items-center justify-between z-10">
+
+            <div class="w-18 h-18 rounded-full bg-[#0180C1] border-2 border-white
+                         flex items-center justify-center">
+              <img src="/src/assets/images/logo2.png" class="w-12 h-12 object-contain">
+            </div>
+
+            <div class="absolute top-4 -right-6 flex items-center gap-2 bg-[#0180C1] text-white text-sm
+                            px-6 py-1.5 rounded-full shadow-lg whitespace-nowrap z-20">
+              <i class="fa-solid fa-phone-volume"></i>
+              Hotline: 0909 844 155
+            </div>
+          </div>
+
+          <img src="/src/assets/images/img39.7.png" class="absolute top-32 left-1/2 -translate-x-1/2 -translate-y-1/2
+                     w-40 h-34 z-20 object-contain pointer-events-none" alt="">
+
+          <div class="relative h-56 z-10"></div>
+
+          <div class="relative z-10 flex items-center justify-between px-5 py-4">
+            <h3 class="text-white font-normal text-md uppercase">
+              BAO FILM XQUANG
+            </h3>
+
+            <button class="bg-red-500 hover:bg-red-600 transition
+                    text-white text-sm px-6 py-1 rounded-full">
+              XEM BÁO GIÁ
+            </button>
+          </div>
+
+        </div>
+
+        <div class="relative bg-white rounded-2xl border shadow-sm overflow-hidden wow animate__animated animate__bounceInUp">
+
+          <img src="/src/assets/images/img39.jpg"
+            class="absolute inset-0 w-full h-full object-center pointer-events-none" alt="">
+
+          <div class="absolute top-2 left-4 right-4 flex items-center justify-between z-10">
+
+            <div class="w-18 h-18 rounded-full bg-[#0180C1] border-2 border-white
+                         flex items-center justify-center">
+              <img src="/src/assets/images/logo2.png" class="w-12 h-12 object-contain">
+            </div>
+
+            <div class="absolute top-4 -right-6 flex items-center gap-2 bg-[#0180C1] text-white text-sm
+                            px-6 py-1.5 rounded-full shadow-lg whitespace-nowrap z-20">
+              <i class="fa-solid fa-phone-volume"></i>
+              Hotline: 0909 844 155
+            </div>
+          </div>
+
+          <img src="/src/assets/images/img39.8.png" class="absolute top-32 left-1/2 -translate-x-1/2 -translate-y-1/2
+                     w-44 h-auto z-20 object-contain pointer-events-none" alt="">
+
+          <div class="relative h-56 z-10"></div>
+
+          <div class="relative z-10 flex items-center justify-between px-5 py-4">
+            <h3 class="text-white font-normal text-md uppercase">
+              HỘP GIẤY
+            </h3>
+
+            <button class="bg-red-500 hover:bg-red-600 transition
+                    text-white text-sm px-6 py-1 rounded-full">
+              XEM BÁO GIÁ
+            </button>
+          </div>
+
+        </div>
+
+        <div class="relative bg-white rounded-2xl border shadow-sm overflow-hiddenwow animate__animated animate__bounceInRight">
+
+          <img src="/src/assets/images/img39.jpg"
+            class="absolute inset-0 w-full h-full object-center pointer-events-none" alt="">
+
+          <div class="absolute top-2 left-4 right-4 flex items-center justify-between z-10">
+
+            <div class="w-18 h-18 rounded-full bg-[#0180C1] border-2 border-white
+                         flex items-center justify-center">
+              <img src="/src/assets/images/logo2.png" class="w-12 h-12 object-contain">
+            </div>
+
+            <div class="absolute top-4 -right-6 flex items-center gap-2 bg-[#0180C1] text-white text-sm
+                            px-6 py-1.5 rounded-full shadow-lg whitespace-nowrap z-20">
+              <i class="fa-solid fa-phone-volume"></i>
+              Hotline: 0909 844 155
+            </div>
+          </div>
+
+          <img src="/src/assets/images/img39.9.png" class="absolute top-32 left-1/2 -translate-x-1/2 -translate-y-1/2
+                     w-44 h-auto z-20 object-contain pointer-events-none" alt="">
+
+          <div class="relative h-56 z-10"></div>
+
+          <div class="relative z-10 flex items-center justify-between px-5 py-4">
+            <h3 class="text-white font-normal text-md uppercase">
+              VOUCHER
+            </h3>
+
+            <button class="bg-red-500 hover:bg-red-600 transition
+                    text-white text-sm px-6 py-1 rounded-full">
+              XEM BÁO GIÁ
+            </button>
+          </div>
+
+        </div>
+
+        <div class="relative bg-white rounded-2xl border shadow-sm overflow-hidden wow animate__animated animate__bounceInLeft">
+
+          <img src="/src/assets/images/img39.jpg"
+            class="absolute inset-0 w-full h-full object-center pointer-events-none" alt="">
+
+          <div class="absolute top-2 left-4 right-4 flex items-center justify-between z-10">
+
+            <div class="w-18 h-18 rounded-full bg-[#0180C1] border-2 border-white
+                         flex items-center justify-center">
+              <img src="/src/assets/images/logo2.png" class="w-12 h-12 object-contain">
+            </div>
+
+            <div class="absolute top-4 -right-6 flex items-center gap-2 bg-[#0180C1] text-white text-sm
+                            px-6 py-1.5 rounded-full shadow-lg whitespace-nowrap z-20">
+              <i class="fa-solid fa-phone-volume"></i>
+              Hotline: 0909 844 155
+            </div>
+          </div>
+
+          <img src="/src/assets/images/img39.10.png" class="absolute top-32 left-1/2 -translate-x-1/2 -translate-y-1/2
+                     w-44 h-auto z-20 object-contain pointer-events-none" alt="">
+
+          <div class="relative h-56 z-10"></div>
+
+          <div class="relative z-10 flex items-center justify-between px-5 py-4">
+            <h3 class="text-white font-normal text-md uppercase">
+              IN GIẤY KHEN
+            </h3>
+
+            <button class="bg-red-500 hover:bg-red-600 transition
+                    text-white text-sm px-6 py-1 rounded-full">
+              XEM BÁO GIÁ
+            </button>
+          </div>
+
+        </div>
+
+        <div class="relative bg-white rounded-2xl border shadow-sm overflow-hidden wow animate__animated animate__bounceInDown">
+
+          <img src="/src/assets/images/img39.jpg"
+            class="absolute inset-0 w-full h-full object-center pointer-events-none" alt="">
+
+          <div class="absolute top-2 left-4 right-4 flex items-center justify-between z-10">
+
+            <div class="w-18 h-18 rounded-full bg-[#0180C1] border-2 border-white
+                         flex items-center justify-center">
+              <img src="/src/assets/images/logo2.png" class="w-12 h-12 object-contain">
+            </div>
+
+            <div class="absolute top-4 -right-6 flex items-center gap-2 bg-[#0180C1] text-white text-sm
+                            px-6 py-1.5 rounded-full shadow-lg whitespace-nowrap z-20">
+              <i class="fa-solid fa-phone-volume"></i>
+              Hotline: 0909 844 155
+            </div>
+          </div>
+
+          <img src="/src/assets/images/img12.png" class="absolute top-32 left-1/2 -translate-x-1/2 -translate-y-1/2
+                     w-44 h-auto z-20 object-contain pointer-events-none" alt="">
+
+          <div class="relative h-56 z-10"></div>
+
+          <div class="relative z-10 flex items-center justify-between px-5 py-4">
+            <h3 class="text-white font-normal text-md uppercase">
+              DANH THIẾP
+            </h3>
+
+            <button class="bg-red-500 hover:bg-red-600 transition
+                    text-white text-sm px-6 py-1 rounded-full">
+              XEM BÁO GIÁ
+            </button>
+          </div>
+
+        </div>
+
+        <div class="relative bg-white rounded-2xl border shadow-sm overflow-hidden wow animate__animated animate__bounceInRight">
+
+          <img src="/src/assets/images/img39.jpg"
+            class="absolute inset-0 w-full h-full object-center pointer-events-none" alt="">
+
+          <div class="absolute top-2 left-4 right-4 flex items-center justify-between z-10">
+
+            <div class="w-18 h-18 rounded-full bg-[#0180C1] border-2 border-white
+                         flex items-center justify-center">
+              <img src="/src/assets/images/logo2.png" class="w-12 h-12 object-contain">
+            </div>
+
+            <div class="absolute top-4 -right-6 flex items-center gap-2 bg-[#0180C1] text-white text-sm
+                            px-6 py-1.5 rounded-full shadow-lg whitespace-nowrap z-20">
+              <i class="fa-solid fa-phone-volume"></i>
+              Hotline: 0909 844 155
+            </div>
+          </div>
+
+          <img src="/src/assets/images/img39.11.png" class="absolute top-32 left-1/2 -translate-x-1/2 -translate-y-1/2
+                     w-44 h-auto z-20 object-contain pointer-events-none" alt="">
+
+          <div class="relative h-56 z-10"></div>
+
+          <div class="relative z-10 flex items-center justify-between px-5 py-4">
+            <h3 class="text-white font-normal text-md uppercase">
+              THIẾT KẾ GIÁ RẺ
+            </h3>
+
+            <button class="bg-red-500 hover:bg-red-600 transition
+                    text-white text-sm px-6 py-1 rounded-full">
+              XEM BÁO GIÁ
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--end Section-2-->
+
+  <!--Footer-->
+  <footer class="relative text-white overflow-hidden wow animate__animated animate__rubberBand">
+
+    <div class="absolute inset-0 bg-center bg-cover" style="background-image: url('./src/assets/images/img24.png');">
+    </div>
+
+    <div class="absolute inset-0 bg-[#0058AB]/90"></div>
+
+    <!-- CONTENT -->
+    <div class="relative z-10 max-w-7xl mx-auto px-6 py-16">
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+
+        <!-- LEFT -->
+        <div class="lg:col-span-4">
+          <img src="/src/assets/images/logo2.png" class="h-32 w-auto mb-4" alt="">
+
+          <h3 class="font-bold text-2xl leading-snug mb-4">
+            CTY TNHH - TM - DV - SX <br>
+            IN ẤN QUẢNG CÁO THIÊN AN
+          </h3>
+
+          <p class="text-xs text-white/80 leading-relaxed">
+            Tại Xưởng in Thiên An, chúng tôi cam kết cung cấp cho khách hàng các giải pháp đóng gói phù hợp
+            và hiệu quả
+            nhất, dựa trên các tiêu chí: Chất lượng hàng đầu. Giá cả hợp lý. Dịch vụ chu đáo Giải pháp tối
+            ưu.
+          </p>
+        </div>
+
+        <!-- CENTER -->
+        <div class="lg:col-span-4 space-y-8 ml-10">
+
+          <div>
+            <h4 class="font-semibold text-xl mb-4">PHỤ TRÁCH KHÁCH HÀNG</h4>
+            <ul class="space-y-2 font-medium text-md ">
+              <li><i class="fa-solid fa-angles-right"></i> Liên hệ</li>
+              <li><i class="fa-solid fa-angles-right"></i> Thông tin chuyển khoản</li>
+              <li><i class="fa-solid fa-angles-right"></i> Quy trình đặt hàng</li>
+              <li><i class="fa-solid fa-angles-right"></i> Xem bản đồ</li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="font-semibold text-lg mb-4">THEO DÕI CHÚNG TÔI</h4>
+            <div class="flex gap-4 text-4xl ">
+              <a href="/src/Pages/Services/hiring.html"><i class="fa-brands fa-youtube"></i></a>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="lg:col-span-4">
+          <h4 class="font-semibold text-xl mb-4">VỊ TRÍ CỦA CHÚNG TÔI</h4>
+
+          <div class="rounded-xl overflow-hidden border border-white/20 z-20 w-full h-60">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.4545326902016!2d106.62169171079319!3d10.776457259148442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752c1ea48eaaab%3A0x3536d8e700f6e087!2zMzM4IFRob-G6oWkgTmfhu41jIEjhuqd1LCBQaMO6IFRo4bqhbmgsIFTDom4gUGjDuiwgVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1769999372349!5m2!1svi!2s"
+              class="h-full w-full" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- CONTACT BOXES -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-14">
+
+        <div class="bg-[#017DF2] rounded-xl px-6 py-4 flex items-center gap-4">
+          <i class="fa-solid fa-phone-volume text-4xl"></i>
+          <div>
+            <p class="text-sm opacity-80">Hotline</p>
+            <p class="text-lg font-semibold ">0909 944 195 - 08 222 86 553</p>
+          </div>
+        </div>
+
+        <div class="bg-[#017DF2] rounded-xl px-6 py-4 flex items-center gap-4">
+          <i class="fa-solid fa-envelope text-4xl"></i>
+          <div>
+            <p class="text-sm opacity-80">Email</p>
+            <p class="text-lg font-semibold">inthienanchcm@gmail.com</p>
+          </div>
+        </div>
+
+        <div class="bg-[#017DF2] rounded-xl px-6 py-4 flex items-center gap-4">
+          <i class="fa-solid fa-location-dot text-4xl"></i>
+          <div>
+            <p class="text-sm opacity-80">Địa chỉ</p>
+            <p class="text-md font-semibold">
+              338 Thoại Ngọc Hầu, P. Phú Thạnh, Q. Tân Phú, TPHCM
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </footer>
+
+  <div class="bg-[#0668C4] text-white/70 text-sm text-center py-4">
+    Copyright © 2025 XƯỞNG IN THIÊN AN.
+    Powered by HD Agency. All Rights Reserved
+  </div>
+  <!--end Footer-->
+
+
+  <script type="module" src="/src/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+    integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="/js/wow.min.js"></script>
+  <script>
+    if (typeof WOW !== 'undefined') {
+      new WOW({
+        boxClass: 'wow',
+        animateClass: 'animate__animated',
+        offset: 100
+      }).init();
+      console.log("WOW.js đã sẵn sàng!");
+    } else {
+      console.error("Vẫn chưa load được file wow.min.js");
+    }
+  </script>
+</body>
+
+</html>
